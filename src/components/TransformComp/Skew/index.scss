@@ -1,0 +1,17 @@
+.transform {
+  position: relative;
+  top: 50%;
+  margin-top: 125px;
+  transform: translateY(-50%);
+  &-skew {
+    width: 60px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    &-fir {
+      width: 100%;
+      height: 100%;
+      background-color: #d38282;
+    }
+  }
+}

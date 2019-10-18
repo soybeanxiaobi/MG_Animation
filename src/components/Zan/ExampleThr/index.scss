@@ -1,0 +1,27 @@
+.zan-list-animation-2{
+  color: #e04545!important;
+  // transform-origin: -10% 50% 0px;
+  // animation: scale 300ms ease 1;
+}
+
+@keyframes scale
+{
+  0% {
+    transform: scale3d(0, 0, 0) rotate3d(0, 0, 0, 0deg);
+  }
+  // 10% {
+  //   transform: rotate(20deg);    
+  // }
+  // 35% {
+  //   transform: rotate(-20deg);    
+  // }
+  // 60% {
+  //   transform: rotate(20deg);    
+  // }
+  // 90% {
+  //   transform: rotate(-20deg);    
+  // }
+  100% {
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 0deg);  
+  }
+} 

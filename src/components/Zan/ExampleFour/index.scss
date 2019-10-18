@@ -1,0 +1,30 @@
+.zan-list-content-span {
+  font-size: 25px;
+  color: rgb(224, 69, 69);
+  position: relative;
+  left: 10px;
+  bottom: 0px;
+  opacity: 0;
+  &-animation {
+    animation: addSpan 600ms ease 1;
+  }
+}
+
+@keyframes addSpan {
+  0% {
+    bottom: 0px;
+    opacity: 0;
+  }
+
+  50% {
+    bottom: 12px;
+    opacity: 1;
+  }
+  90% {
+    bottom: 30px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+  }
+}

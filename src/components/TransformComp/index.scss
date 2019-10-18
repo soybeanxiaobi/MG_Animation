@@ -1,0 +1,28 @@
+.zan{
+  text-align: center;
+  padding: 25px 20px;
+  .zan-list {
+    width: 30%;
+    height: 250px;
+    z-index: 0;
+    background-color: #FFF;
+    position: relative;
+    box-shadow: 0 0 2px 2px #EEE;
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    &-reset {
+      font-size: 14px;
+      color: #ccc;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 5px;
+      cursor: pointer;
+    }
+    &-content {
+      text-align: center;
+      line-height: 250px;
+    }
+  }
+}

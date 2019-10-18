@@ -1,0 +1,37 @@
+.ae-wrapper {
+  .imgs-list,
+  .desc {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.23);
+    &-list {
+      margin-bottom: 20px;
+      &-value {
+        padding-left: 30px;
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+  .imgs-list { 
+    background-color: #f2f2f2;
+  }
+  .imgs {
+    text-align: center;
+    &-list {
+      video {
+        width: 500px;
+      }
+    }
+  }
+}
+
+.color-block {
+  width: 12px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+}

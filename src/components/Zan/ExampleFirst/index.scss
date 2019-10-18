@@ -1,0 +1,25 @@
+.zan-list-animation {
+  color: #e04545!important;
+  animation: shake 300ms ease 1;
+}
+@keyframes shake
+  {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(20deg);    
+    }
+    35% {
+      transform: rotate(-20deg);    
+    }
+    60% {
+      transform: rotate(20deg);    
+    }
+    90% {
+      transform: rotate(-20deg);    
+    }
+    100% {
+      transform: rotate(0deg);    
+    }
+  } 
